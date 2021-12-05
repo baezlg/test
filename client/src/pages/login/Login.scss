@@ -1,0 +1,43 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  &__heading {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 600;
+  }
+  &__box {
+    width: 50rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    span {
+      text-align: end;
+      margin-bottom: 1rem;
+      a {
+        color: purple;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    input[type="password"],
+    input[type="email"] {
+      border-bottom: 1px solid #ccc;
+    }
+    input {
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    input[type="submit"] {
+      background-color: #000;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

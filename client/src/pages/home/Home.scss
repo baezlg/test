@@ -1,0 +1,40 @@
+.home {
+  padding: 5rem;
+  &__heading {
+    font-size: 4rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    .btn {
+      padding: 1rem 1.4rem;
+      margin-left: 1rem;
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__contacts {
+    width: 70%;
+    height: 40rem;
+    border: 1px solid #000;
+    overflow-y: scroll;
+  }
+  &__contact {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #999;
+
+    .icon {
+      margin-right: 1rem;
+      font-size: 2rem;
+      cursor: pointer;
+      &:hover {
+        color: firebrick;
+      }
+    }
+  }
+}
